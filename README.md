@@ -1,3 +1,5 @@
+参考代码：
+https://github.com/FrankFang/morney-react-data/blob/master/src/views/Money/NoteSection.tsx
 # 项目创建及相关配置
 进入指定目录下创建文件夹，将其命名为keep-accounts-react，用webstorm打开，打开终端，运行create-react-app . --template typescript，“.”是指在当前目录下创建，“ --template typescript”是指使用TS而不是JS。
 yarn start（运行 echo 'BROWSER=none' > .env，设置为手动打开浏览器）
@@ -66,6 +68,16 @@ yarn add --dev @types/react-router-dom
 
 制作底部导航栏
 复制官方文档的例子，再次基础上进行修改，设置默认页面和404页面。
-在components中建立Navigation.tsx文件，用来制作导航栏
+在components中建立Navigation.tsx文件，用来封装导航栏，
+消除默认样式，使用activeClassName，选中显示高亮；
 使用NavLink代替Link
+引入图标，svg介绍及其配置（博客：https://zhuanlan.zhihu.com/p/422205885）
+封装Icon组件，方便使用
 
+写css时，怎么让一个div自适应屏幕剩余高度，但是这个div本身的内容比剩余的高度要大，让这个div出现滚动条，而不是屏幕出现滚动条。
+
+#时间选择器
+安装一些插件：
+1、BetterScroll 是一款重点解决移动端各种滚动场景需求的插件。
+yarn add @better-scroll/core
+yarn add dayjs
