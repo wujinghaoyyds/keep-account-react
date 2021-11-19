@@ -1,75 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d621611-25b6-48b3-8da6-9e47eb7d6c78" name="Default Changelist" comment="初始化，">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ExhibitionNav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NoMatch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SumDisplay.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useDates.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useExamples.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useRecords.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTags.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/bonussubsidy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/borrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/costume.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/exercise.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/fruits.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/game.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/groceries.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/housing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/investmentandfinance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/journey.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/loan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/medicine.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/other.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/parttime.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/reimbursement.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/repast.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/salary.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/shopping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/social.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/study.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/tobaccoandwine.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/traffic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/DisplayCss.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/LayoutCss.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/keepAccountsPage/CategorySection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/keepAccountsPage/NoteSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/keepAccountsPage/NumberPadSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/keepAccountsPage/TagsSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/keepAccountsPage/TimeBarSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/statisticsPage/MonthlyReport.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/statisticsPage/WeeklyReport.tsx" afterDir="false" />
+    <list default="true" id="8d621611-25b6-48b3-8da6-9e47eb7d6c78" name="Default Changelist" comment="初步完成">
+      <change afterPath="$PROJECT_DIR$/scripts/deploy_github.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/KeepAccounts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/KeepAccounts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Statistics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Statistics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +62,10 @@
       <workItem from="1635748003417" duration="28071000" />
       <workItem from="1635904561546" duration="65029000" />
       <workItem from="1636961034495" duration="16541000" />
-      <workItem from="1637028987602" duration="71936000" />
+      <workItem from="1637028987602" duration="73299000" />
+      <workItem from="1637237177410" duration="636000" />
+      <workItem from="1637238454282" duration="5942000" />
+      <workItem from="1637288002815" duration="2659000" />
     </task>
     <task id="LOCAL-00001" summary="初始化，">
       <created>1634990981178</created>
@@ -135,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634990981178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初步完成">
+      <created>1637236029413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637236029413</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化，" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化，" />
+    <MESSAGE value="初步完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步完成" />
   </component>
 </project>

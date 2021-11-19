@@ -1,6 +1,7 @@
 {
   "name": "keep-accounts-react",
   "version": "0.1.0",
+  "homepage": "https://wujinghaoyyds.github.io/keep-account-react-website/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
