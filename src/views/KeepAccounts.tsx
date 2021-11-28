@@ -8,24 +8,13 @@ import NavigationBar from '../components/NavigationBar';
 import TagsSection from './keepAccountsPage/TagsSection';
 import {useRecords} from '../hooks/useRecords';
 import {useDates} from '../hooks/useDates';
-import {LayoutWrapper, MainWrapper, ScreenWrapper} from '../style/LayoutCss';
+import {AmountWrapper, Layout} from '../style/CssWrapper';
 
-const AmountWrapper = styled.section`
+const Main = styled.div`
+  flex-grow: 1;
+  overflow: auto;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 14px;
-
-  > output {
-    font-size: 40px;
-    text-align: right;
-    padding-right: 10px;
-    color: #333333;
-  }
-
-  > span {
-    font-size: 20px;
-  }
+  flex-direction: column;
 `;
 
 function KeepAccounts() {
@@ -38,9 +27,6 @@ function KeepAccounts() {
         tagId: 0,
     };
     const [selected, setSelected] = useState(defaultFormData);
-    if (selected.category === '-') {
-
-    }
     const onChange = (obj: Partial<typeof selected>) => {
         setSelected({...selected, ...obj});
     };
@@ -78,24 +64,23 @@ function KeepAccounts() {
         }
     };
     return (
-        < ScreenWrapper>
-            <LayoutWrapper>
-                <MainWrapper>
-                    <CategorySection value={selected.category} onChange={(category) => initialTagId(category)}/>
-                    <AmountWrapper>
-                        <output>{selected.amount}</output>
-                        <span>元</span></AmountWrapper>
-                    <TagsSection categoryColor={selected.category} value={selected.tagId}
-                                 onChange={(tagId) => onChange({tagId})}/>
-                    <NoteSection value={selected.note} onChange={(note) => onChange({note})}/>
-                    <TimeBarSection value={selected.date} onChange={(date) => onChange({date})}/>
-                    <NumberPadSection categoryColor={selected.category} value={selected.amount}
-                                      onChange={(amount) => onChange({amount})} onOk={submit}
-                    />
-                </MainWrapper>
-                <NavigationBar/>
-            </LayoutWrapper>
-        </ ScreenWrapper>
+        <Layout>
+            <Main>
+                <CategorySection value={selected.category} onChange={(category) => initialTagId(category)}/>
+                <AmountWrapper>
+                    <output>{selected.amount}</output>
+                    <span>元</span></AmountWrapper>
+                <TagsSection categoryColor={selected.category} value={selected.tagId}
+                             onChange={(tagId) => onChange({tagId})}/>
+                <NoteSection value={selected.note} onChange={(note) => onChange({note})}/>
+                <TimeBarSection value={selected.date} onChange={(date) => onChange({date})}/>
+
+                <NumberPadSection categoryColor={selected.category} value={selected.amount}
+                                  onChange={(amount) => onChange({amount})} onOk={submit}
+                />
+            </Main>
+            <NavigationBar/>
+        </Layout>
     );
 }
 

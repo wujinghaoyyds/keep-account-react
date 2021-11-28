@@ -9,7 +9,7 @@ const useDates = () => {
     const [saturday, setSaturday] = useState(+new Date() + (8 + (6 - today) * 24) * 3600 * 1000);
     const beginOfWeek = new Date(saturday - 6 * 24 * 3600 * 1000).toISOString().slice(0, 10);
     const endOfWeek = new Date(saturday).toISOString().slice(0, 10);
-    const weeklyScope = dayjs(beginOfWeek).format('MM月DD日') + '至' + dayjs(endOfWeek).format('MM月DD日');
+    const weeklyScope = dayjs(beginOfWeek).format('MM.DD') + '~' + dayjs(endOfWeek).format('MM.DD');
 
     const [month, changeMonth] = useState(date.getMonth());
     const displayMonth = new Date().setMonth(month);

@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
-  padding: 3px 0;
+  padding: 6px 0;
   border-top: 1px solid #E3E3E3;
   background: #F5F5F5;
 
@@ -19,9 +19,10 @@ const Wrapper = styled.section`
       width: 28%;
       height: 40px;
       color: #333333;
-      margin: 3px 0;
+      margin: 4px 0;
       border-radius: 10px;
       background: #FFFFFF;
+      cursor: pointer;
 
       &.zero {
         width: 44%;
@@ -43,21 +44,22 @@ const Wrapper = styled.section`
       width: 84%;
       border-radius: 10px;
       color: #333333;
-      margin: 3px 0;
+      margin: 4px 0;
       background: #FFFFFF;
+      cursor: pointer;
 
       &.delete {
         height: 40px;
       }
 
       &.expenditureColor {
-        height: 132px;
+        height: 136px;
         float: right;
         background: #85B6F9;
       }
 
       &.incomeColor {
-        height: 132px;
+        height: 136px;
         float: right;
         background: #FFAB84;
       }

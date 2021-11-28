@@ -4,10 +4,13 @@ import styled from 'styled-components';
 const Sum = styled.div`
   > ol {
     display: flex;
-    justify-content: space-between;
 
     > li {
-      padding: 15px 30px;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 0;
 
       > span {
         color: #999999;
@@ -15,8 +18,7 @@ const Sum = styled.div`
 
       > div {
         color: #333333;
-        font-size: 24px;
-        text-align: center;
+        font-size: 22px;
       }
     }
   }
@@ -29,8 +31,14 @@ const SumDisplay: React.FunctionComponent<Props> = (props) => {
     return (
         <Sum>
             <ol>
-                <li><span>总金额（元）</span><div>￥{props.scopeTotalMoney}</div></li>
-                <li><span>记账笔数</span><div>{props.scopeTotalFrequency}</div></li>
+                <li>
+                    <span>总金额（元）</span>
+                    <div>￥{props.scopeTotalMoney}</div>
+                </li>
+                <li>
+                    <span>记账笔数</span>
+                    <div>{props.scopeTotalFrequency}</div>
+                </li>
             </ol>
         </Sum>
     );

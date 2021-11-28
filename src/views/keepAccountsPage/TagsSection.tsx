@@ -6,11 +6,14 @@ import {useTags} from '../../hooks/useTags';
 const Wrapper = styled.section`
   font-size: 12px;
   color: #666666;
-  flex: 1;
+  flex: 5;
   overflow: auto;
-  margin: 0 14px;
+  margin: 0 16px;
   border-top: 1px solid #333333;
   border-bottom: 1px solid #333333;
+  ::-webkit-scrollbar {
+    display: none; 
+  }
 
   > ol {
     display: flex;
@@ -18,15 +21,16 @@ const Wrapper = styled.section`
     padding: 4px 0;
 
     > li {
-      width: 16.66%;
+      width: 20%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 5px 0;
+      padding: 4px 0;
+      cursor:pointer;
 
       > div {
-        width: 40px;
-        height: 40px;
+        width: 70%;
+        height: 45px;
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -34,6 +38,8 @@ const Wrapper = styled.section`
 
         .icon {
           fill: #B4B6B3;
+          width: 26px;
+          height: 26px;
         }
       }
 

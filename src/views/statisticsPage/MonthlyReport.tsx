@@ -2,7 +2,7 @@ import ExhibitionNav from '../../components/ExhibitionNav';
 import React, {useState} from 'react';
 import {useDates} from '../../hooks/useDates';
 import styled from 'styled-components';
-import {DisplayContent, DisplayWrapper, IconWrapper} from '../../style/DisplayCss';
+import {DisplayContent, DisplayWrapper, IconWrapper} from '../../style/CssWrapper';
 import {RecordItem, useRecords} from '../../hooks/useRecords';
 import {useTags} from '../../hooks/useTags';
 import dayjs from 'dayjs';

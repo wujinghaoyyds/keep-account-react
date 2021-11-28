@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React from 'react';
 
 const Wrapper = styled.section`
-  padding: 12px 24px;
+  padding: 16px 30px;
 
   > label {
     > input {

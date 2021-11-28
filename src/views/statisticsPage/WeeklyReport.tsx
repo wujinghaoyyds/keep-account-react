@@ -6,11 +6,11 @@ import ExhibitionNav from 'components/ExhibitionNav';
 import {RecordItem, useRecords} from 'hooks/useRecords';
 import {useTags} from 'hooks/useTags';
 import {useDates} from 'hooks/useDates';
-import {DisplayWrapper, DisplayContent, IconWrapper} from '../../style/DisplayCss';
 import {SumDisplay} from '../../components/SumDisplay';
+import {DisplayContent, DisplayWrapper, IconWrapper} from '../../style/CssWrapper';
 
 const ItemList = styled.div`
-  padding: 12px;
+  padding: 12px 20px;
 
   .date {
     color: #999999;
@@ -60,6 +60,7 @@ const Item = styled.div`
 
   }
 `;
+
 const WeeklyReport: React.FunctionComponent = () => {
     const {oneWeek, saturday, setSaturday, beginOfWeek, endOfWeek, weeklyScope} = useDates();
     const {records} = useRecords();

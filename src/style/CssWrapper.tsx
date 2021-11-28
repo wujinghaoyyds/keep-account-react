@@ -1,15 +1,25 @@
 import styled from 'styled-components';
 
-const DisplayWrapper = styled.div`
-  height: 50%;
+const Layout = styled.div`
+  width: 100vw;
+  max-width: 420px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  background: #FFFFFF;
+`;
+const DisplayWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 const DisplayContent = styled.div`
-  flex: 5;
   overflow: auto;
-  background: #F5F5F5;
   padding: 0 10px;
 
   > div {
@@ -42,4 +52,21 @@ const IconWrapper = styled.div`
     }
   }
 `;
-export {DisplayWrapper, DisplayContent, IconWrapper};
+const AmountWrapper = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 14px 16px;
+
+  > output {
+    font-size: 40px;
+    text-align: right;
+    padding-right: 10px;
+    color: #333333;
+  }
+
+  > span {
+    font-size: 20px;
+  }
+`;
+export {Layout, DisplayWrapper, DisplayContent, IconWrapper, AmountWrapper};

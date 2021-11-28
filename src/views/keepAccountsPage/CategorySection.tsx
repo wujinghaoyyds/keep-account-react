@@ -14,6 +14,7 @@ const Wrapper = styled.section`
       padding:8px 0;
 
       > span {
+        cursor:pointer;
         &.expenditure {
           margin-left: 40%;
         }

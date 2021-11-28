@@ -9,11 +9,13 @@ const Wrapper = styled.section`
   > label {
     > input {
       border: 1px solid #ccc;
+      padding:2px;
       border-radius: 3px;
       box-shadow: inset 0 1px #F3F3F3, 0 1px #F3F3F3;
       background-color: #F3F3F3;
       color: #333333;
-      font-size: 14px;
+      font-size: 16px;
+      cursor:pointer;
     }
   }
 `;
